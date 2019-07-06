@@ -1,3 +1,4 @@
+//1076 重做
 //1065 sum may be overflow  :a>0&b>0  a+b<0 ,a<0&b<0  a+b>=0
 //1052 静态链表：考虑无用节点的情况   node[p]={p,key,next,false};
 //1048 超时问题：如果涉及对序列查找，尽量用二分法 ：while(left<=right);left=mid+1;right=mid-1;Tips:柳神解法妙！
