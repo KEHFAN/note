@@ -2,6 +2,7 @@
 //1101 末尾要加一个回车。
 //1076 重做
 //1065 sum may be overflow  :a>0&b>0  a+b<0 ,a<0&b<0  a+b>=0
+//1058 acc
 //*1057 粗心：在pop()之后使用top()  超时问题：树状数组解决，详见末尾知识点1（树状数组）：：属Top要求，可先不看
 //1052 静态链表：考虑无用节点的情况   node[p]={p,key,next,false};
 //1048 超时问题：如果涉及对序列查找，尽量用二分法 ：while(left<=right);left=mid+1;right=mid-1;Tips:柳神解法妙！
