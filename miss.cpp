@@ -2,7 +2,7 @@
 *void insert(node* &root,int x) 因为要修改root本身的值 所以要加引用&
 //1116  变量命名避免关键字：rank 取没有任何歧义的
 //1101 末尾要加一个回车。
-
+//1099 acc
 //1076 重做
 //1065 sum may be overflow  :a>0&b>0  a+b<0 ,a<0&b<0  a+b>=0
 //1058 acc
