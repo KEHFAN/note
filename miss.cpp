@@ -13,6 +13,7 @@
 //1048 超时问题：如果涉及对序列查找，尽量用二分法 ：while(left<=right);left=mid+1;right=mid-1;Tips:柳神解法妙！
 //1047 超时问题：cin cout能避免就避免，字符串输入scanf("%s",str);str为字符数组；操作时可将str转为string类型：string=str;str=string.c_str();
 //1044 acc 如果涉及排序 可优先考虑 map<int,map<int,int> >
+//1043 一定要认真读题，题目要求右子树包括等于的值；new节点是一定不能漏left=right=NULL;看清输出格式 大小写
 //1041 acc 提交时注意选择正确的编译语言
 //1039 acc 使用字符串hash速度更快 能用map转化排序问题 就尽量不要用
 //1034 DFS:  MAX上界 MAX命名可能会冲突，使用大写 熟练运用DFS 邻接矩阵存储要考虑对称操作 G[u][v]=0;G[v][u]=0;
