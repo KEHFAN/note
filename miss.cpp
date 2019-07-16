@@ -1,5 +1,11 @@
 //     关于引用：如果在函数中要改变原来的值，void alt(int &a){a=3;}调用时就不必再加&
 *void insert(node* &root,int x) 因为要修改root本身的值 所以要加引用&
+*关于struct;如需要使用构造函数赋值，最好再加一个默认构造函数
+ struct node{
+    int a;
+    node(){}//默认构造函数，确保正常声明：node stemp;
+    node(int _a):a(_a){}//构造函数，确保：node stemp=node(2);
+ };
 //1116  变量命名避免关键字：rank 取没有任何歧义的
 //1101 末尾要加一个回车。
 //1099 acc
