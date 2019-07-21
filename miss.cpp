@@ -7,11 +7,10 @@
     node(int _a):a(_a){}//构造函数，确保：node stemp=node(2);
  };
 //fill()与memset()的区别
-
 #include <algorithm>
 int a[size],b[size][size];
 fill(a,a+size,num);//algorithm
-fill(b,b+size*size,num);//二维
+fill(b[0],b[0]+size*size,num);//二维
 fill(vector.begin,vector.end,num);
 memset(a,0,sizeof a);//cstring
 memset(a,-1,sizeof a);//按字节填充字符，只能用来填充char型数组，若填充int只能填充 0 和 -1 
