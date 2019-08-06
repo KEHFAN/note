@@ -35,6 +35,7 @@ char c[size];memset(c,char,sizeof c);
 //1034 DFS:  MAX上界 MAX命名可能会冲突，使用大写 熟练运用DFS 邻接矩阵存储要考虑对称操作 G[u][v]=0;G[v][u]=0;
 //1032 静态链表：效率问题，节点中增加flag 将一个链表中节点置true，逐个访问另一个节点时遇到true即得到相同点
 //1028 acc
+//1027 acc
 //1024 algorithm  reverse(begin,end)反转函数
 //1023 仔细审题，no的情况 没有注意仍要输出结果
 //1022 用vector要考虑可能输入重复数据，考虑用set；输出数字串格式问题，要求7位数字，不足补0；不要在switch中定义变量；重复很多的语句用函数表示
