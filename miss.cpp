@@ -37,6 +37,7 @@ char c[size];memset(c,char,sizeof c);
 //1028 acc
 //1024 algorithm  reverse(begin,end)反转函数
 //1023 仔细审题，no的情况 没有注意仍要输出结果
+//1022 用vector要考虑可能输入重复数据，考虑用set；输出数字串格式问题，要求7位数字，不足补0
 //1021 无向图输入要对称：G[a].push_back(b);G[b].push_back(a); 结点数超过200用邻接链表存储
 //1020 acc
 //1016 重做
