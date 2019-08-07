@@ -32,6 +32,13 @@ char c[size];memset(c,char,sizeof c);
 //1043 一定要认真读题，题目要求右子树包括等于的值；new节点是一定不能漏left=right=NULL;看清输出格式 大小写
 //1041 acc 提交时注意选择正确的编译语言
 //1039 acc 使用字符串hash速度更快 能用map转化排序问题 就尽量不要用
+//1036 注意题目条件；map用法
+map<key,value> mp;//默认按key从小到大排序
+map<key,value>::iterator it=mp.begin();//正序第一个元素
+map<key,value>::reverse_iterator iter=mp.rbegin();//逆序第一个元素
+//或者这样写
+mp.begin();
+mp.rbegin();
 //1034 DFS:  MAX上界 MAX命名可能会冲突，使用大写 熟练运用DFS 邻接矩阵存储要考虑对称操作 G[u][v]=0;G[v][u]=0;
 //1032 静态链表：效率问题，节点中增加flag 将一个链表中节点置true，逐个访问另一个节点时遇到true即得到相同点
 //1030 Dijkstra+DFS背熟;无向图输入修改要对称操作！！！！！;判断条件要看清！！！
