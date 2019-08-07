@@ -34,6 +34,7 @@ char c[size];memset(c,char,sizeof c);
 //1039 acc 使用字符串hash速度更快 能用map转化排序问题 就尽量不要用
 //1034 DFS:  MAX上界 MAX命名可能会冲突，使用大写 熟练运用DFS 邻接矩阵存储要考虑对称操作 G[u][v]=0;G[v][u]=0;
 //1032 静态链表：效率问题，节点中增加flag 将一个链表中节点置true，逐个访问另一个节点时遇到true即得到相同点
+//1029 多熟悉写法
 //1028 acc
 //1027 acc 字符数组char letter[13]={"0123456789ABC"};可以用字符串声明，写法简单
 //1024 algorithm  reverse(begin,end)反转函数
