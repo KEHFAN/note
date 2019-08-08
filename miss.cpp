@@ -26,6 +26,7 @@ char c[size];memset(c,char,sizeof c);
 //1055 1,字符串比较要用strcmp(str1,str2)<0==str1<str2 #include<cstring> ;2,for(int i=0;i<n&&num!=0;i++)终止条件不能用逗号，防止num!=0&&i>=n的情况
 //1053 学习1053的思考方式 如果测试数据较多，使用程序自动输入测试，提交时注释掉 问题较多：推出当前节点需要进行操作统一在返回点处之后操作，如调用函数alt(a,b);//此处添加统一操作
 //1052 静态链表：考虑无用节点的情况   node[p]={p,key,next,false};
+//1050 注意特殊的输入和输出： 空格的情况 示例 不会给出 但是要考虑到
 //1048 超时问题：如果涉及对序列查找，尽量用二分法 ：while(left<=right);left=mid+1;right=mid-1;Tips:柳神解法妙！
 //1047 超时问题：cin cout能避免就避免，字符串输入scanf("%s",str);str为字符数组；操作时可将str转为string类型：string=str;str=string.c_str();
 //1046 求距离问题，可将每段距离转换为存储累计距离，这样最终两点距离通过相减得到，不必再累加计算！！！！！
