@@ -30,6 +30,7 @@ char c[size];memset(c,char,sizeof c);
 //1047 超时问题：cin cout能避免就避免，字符串输入scanf("%s",str);str为字符数组；操作时可将str转为string类型：string=str;str=string.c_str();
 //1044 acc 如果涉及排序 可优先考虑 map<int,map<int,int> >
 //1043 一定要认真读题，题目要求右子树包括等于的值；new节点是一定不能漏left=right=NULL;看清输出格式 大小写
+//1042 思路要清晰
 //1041 acc 提交时注意选择正确的编译语言
 //1039 acc 使用字符串hash速度更快 能用map转化排序问题 就尽量不要用
 //1036 注意题目条件；map用法
