@@ -28,6 +28,7 @@ char c[size];memset(c,char,sizeof c);
 //1052 静态链表：考虑无用节点的情况   node[p]={p,key,next,false};
 //1048 超时问题：如果涉及对序列查找，尽量用二分法 ：while(left<=right);left=mid+1;right=mid-1;Tips:柳神解法妙！
 //1047 超时问题：cin cout能避免就避免，字符串输入scanf("%s",str);str为字符数组；操作时可将str转为string类型：string=str;str=string.c_str();
+//1046 求距离问题，可将每段距离转换为存储累计距离，这样最终两点距离通过相减得到，不必再累加计算！！！！！
 //1044 acc 如果涉及排序 可优先考虑 map<int,map<int,int> >
 //1043 一定要认真读题，题目要求右子树包括等于的值；new节点是一定不能漏left=right=NULL;看清输出格式 大小写
 //1042 思路要清晰
