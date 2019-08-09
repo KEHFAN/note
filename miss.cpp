@@ -23,6 +23,7 @@ char c[size];memset(c,char,sizeof c);
 //1065 sum may be overflow  :a>0&b>0  a+b<0 ,a<0&b<0  a+b>=0
 //1058 acc
 //*1057 粗心：在pop()之后使用top()  超时问题：树状数组解决，详见末尾知识点1（树状数组）：：属Top要求，可先不看
+//1056 多次使用一个queue时 要注意 使用前 是否有排空的需要 ；注意指针的问题 如要修改内容 queue<*node> q;q.push(&node);node * t=q.front();要用->
 //1055 1,字符串比较要用strcmp(str1,str2)<0==str1<str2 #include<cstring> ;2,for(int i=0;i<n&&num!=0;i++)终止条件不能用逗号，防止num!=0&&i>=n的情况
 //1054 map<key,value> 默认value为0
 //1053 学习1053的思考方式 如果测试数据较多，使用程序自动输入测试，提交时注释掉 问题较多：推出当前节点需要进行操作统一在返回点处之后操作，如调用函数alt(a,b);//此处添加统一操作
