@@ -21,6 +21,7 @@ char c[size];memset(c,char,sizeof c);
 //1076 重做
 //1066 特别是判断平衡因子时一定要注意是2还是-2,1还是-1；LL和RR要注意子树顺序；代码以会默写！！！
 //1065 sum may be overflow  :a>0&b>0  a+b<0 ,a<0&b<0  a+b>=0
+//1060 strlen(arr);//cstring
 //1058 acc
 //*1057 粗心：在pop()之后使用top()  超时问题：树状数组解决，详见末尾知识点1（树状数组）：：属Top要求，可先不看
 //1056 多次使用一个queue时 要注意 使用前 是否有排空的需要 ；注意指针的问题 如要修改内容 queue<*node> q;q.push(&node);node * t=q.front();要用->
