@@ -21,6 +21,8 @@ char c[size];memset(c,char,sizeof c);
 //1076 重做
 //1066 特别是判断平衡因子时一定要注意是2还是-2,1还是-1；LL和RR要注意子树顺序；代码以会默写！！！
 //1065 sum may be overflow  :a>0&b>0  a+b<0 ,a<0&b<0  a+b>=0
+//1062 acc
+//1061 acc
 //1060 strlen(arr);//cstring
 //1059 埃式筛素数模板？？？？？
 //1058 acc
