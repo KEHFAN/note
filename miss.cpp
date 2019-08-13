@@ -44,6 +44,7 @@ char c[size];memset(c,char,sizeof c);
 //1041 acc 提交时注意选择正确的编译语言
 //1039 acc 使用字符串hash速度更快 能用map转化排序问题 就尽量不要用
 //1036 注意题目条件；map用法
+注意！！！map是以key值排序
 map<key,value> mp;//默认按key从小到大排序
 map<key,value>::iterator it=mp.begin();//正序第一个元素
 map<key,value>::reverse_iterator iter=mp.rbegin();//逆序第一个元素
