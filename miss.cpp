@@ -18,6 +18,7 @@ char c[size];memset(c,char,sizeof c);
 //1116  变量命名避免关键字：rank 取没有任何歧义的
 //1101 末尾要加一个回车。
 //1099 acc
+//1078 判断素数要注意特殊情况if(x==1)return false; 平方探查法注意步长小于size for(step=0;step<size;step++){id=(key+step*step)%size;}
 //1077 acc getline(cin,ss);之前要getchar()一下；
 //1076 重做
 //1074 不是所有结点都是可用的！！！；不要用有二义性的变量；输入数据包含无用结点！！这个坑！！
