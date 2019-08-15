@@ -21,6 +21,7 @@ char c[size];memset(c,char,sizeof c);
 //1078 判断素数要注意特殊情况if(x==1)return false; 平方探查法注意步长小于size for(step=0;step<size;step++){id=(key+step*step)%size;}
 //1077 acc getline(cin,ss);之前要getchar()一下；
 //1076 重做
+//1075 太狗贼了艹！ 输入之前id没有全部初始化？ 以后尽量在使用前 保证所有数据都初始化~~~
 //1074 不是所有结点都是可用的！！！；不要用有二义性的变量；输入数据包含无用结点！！这个坑！！
 //1073 先化为统一格式，比如整数，再进行操作；
 //1071 有时候ch[]比string好用，不能什么都用string
