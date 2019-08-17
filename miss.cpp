@@ -20,6 +20,7 @@ char c[size];memset(c,char,sizeof c);
 //1100 acc
 //1099 acc
 //1092 acc
+//1090 acc
 //1084 acc
 //1083 acc
 //1081 特殊情况！！考虑全面 a/0=a
