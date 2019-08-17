@@ -21,6 +21,7 @@ char c[size];memset(c,char,sizeof c);
 //1099 acc
 //1092 acc
 //1090 acc
+//1089 acc 要能默写各种常用排序算法
 //1084 acc
 //1083 acc
 //1081 特殊情况！！考虑全面 a/0=a
