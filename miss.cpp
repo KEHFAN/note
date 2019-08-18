@@ -19,6 +19,7 @@ char c[size];memset(c,char,sizeof c);
 //1101 末尾要加一个回车。
 //1100 acc
 //1099 acc
+//1094 acc
 //1092 acc
 //1090 acc
 //1089 acc 要能默写各种常用排序算法
