@@ -46,7 +46,7 @@ char c[size];memset(c,char,sizeof c);
 //1062 acc
 //1061 acc
 //1060 strlen(arr);//cstring
-//1059 埃式筛素数模板？？？？？
+//1059 要考虑 特殊情况 等于1 或者 根号n内质因子可能不存在的情况！！！
 //1058 acc
 //*1057 粗心：在pop()之后使用top()  超时问题：树状数组解决，详见末尾知识点1（树状数组）：：属Top要求，可先不看
 //1056 多次使用一个queue时 要注意 使用前 是否有排空的需要 ；注意指针的问题 如要修改内容 queue<*node> q;q.push(&node);node * t=q.front();要用->
