@@ -21,6 +21,7 @@ char c[size];memset(c,char,sizeof c);
 //1101 末尾要加一个回车。
 //1100 acc
 //1099 acc
+//1098 排序算法
 //1097 acc 涉及去重，考虑用map
 //1094 acc
 //1092 acc
