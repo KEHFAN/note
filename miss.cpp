@@ -16,6 +16,7 @@ memset(a,0,sizeof a);//cstring
 memset(a,-1,sizeof a);//按字节填充字符，只能用来填充char型数组，若填充int只能填充 0 和 -1 
 char c[size];memset(c,char,sizeof c);
 //1116  变量命名避免关键字：rank 取没有任何歧义的
+//1104 找规律！！！
 //1101 末尾要加一个回车。
 //1100 acc
 //1099 acc
