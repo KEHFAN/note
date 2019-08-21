@@ -19,6 +19,7 @@ char c[size];memset(c,char,sizeof c);
 //1116  变量命名避免关键字：rank 取没有任何歧义的
 //1114 acc
 //1108 scanf:double %lf float %f;printf 只有%f;运行时错误:可能除0;熟练sscanf与sprintf;数组边界一定要足够
+//1105 注意本题的思考方式！！！分层
 //1104 找规律！！！
 //1102 使用queue时front不要忘了pop!!!  ；输入char类型时，要认真考虑getchar()的位置！！！
 //1101 末尾要加一个回车。
